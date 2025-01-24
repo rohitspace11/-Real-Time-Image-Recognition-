@@ -1,12 +1,12 @@
 Real-Time-Image-Recognition-
 
-Description
+~Description
 
 This project implements a real-time image recognition system using the pre-trained MobileNetV2 model. The system uses a webcam to capture live video frames, processes each frame, and classifies the objects in real time. The predicted label and its confidence score are displayed on the video feed.
 
 MobileNetV2 is a lightweight, efficient convolutional neural network architecture pre-trained on the ImageNet dataset. It can classify images into 1,000 different categories, including everyday objects, animals, tools, and more.
 
-Features
+~Features
 
 Real-Time Processing: Captures video feed from a webcam and performs object recognition frame by frame.
 
@@ -16,7 +16,7 @@ Confidence Score: Displays the model's confidence percentage alongside the predi
 
 Ease of Use: Simple implementation with clear output.
 
-Prerequisites
+~Prerequisites
 
 Ensure you have the following installed on your system:
 
@@ -32,7 +32,7 @@ To install the required libraries, run:
 
 pip install tensorflow opencv-python numpy
 
-How to Run
+~How to Run
 
 Clone the repository or copy the code.
 
@@ -46,7 +46,7 @@ Allow camera access when prompted.
 
 Press q to exit the program.
 
-How It Works
+~How It Works
 
 Video Capture: The program uses OpenCV to access the webcam and capture video frames.
 
@@ -56,7 +56,7 @@ Frames are resized to the input size required by MobileNetV2 (224x224 pixels).
 
 Pixel values are normalized using preprocess_input from TensorFlow.
 
-Prediction:
+~Prediction:
 
 The processed frame is passed through MobileNetV2.
 
@@ -70,7 +70,7 @@ The predicted label and confidence score are overlaid on the video feed.
 
 The processed video feed is displayed in a window.
 
-Example Output
+~Example Output
 
 While running, the program will display the webcam feed with labels and confidence scores for the recognized objects. For example:
 
@@ -78,7 +78,7 @@ Label: "Laptop"
 
 Confidence: "98.45%"
 
-Applications
+~Applications
 
 Object recognition in real time.
 
@@ -86,7 +86,7 @@ Educational purposes to understand deep learning in computer vision.
 
 Basis for custom real-time classification projects (e.g., face mask detection).
 
-Future Enhancements
+~Future Enhancements
 
 Custom Classes: Fine-tune MobileNetV2 on a custom dataset for specific use cases like face mask detection or industrial object recognition.
 
