@@ -94,7 +94,4 @@ Performance Optimization: Use TensorFlow Lite for faster inference on edge devic
 
 Multi-Object Detection: Extend the project to detect and localize multiple objects in a single frame using YOLO or SSD.
 
-Author
-
-Developed by [Your Name]. Feel free to reach out for any queries or collaboration opportunities!
 
